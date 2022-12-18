@@ -2,7 +2,7 @@ package homeworks;
 
 import java.util.Scanner;
 
-public class FirstProgram {
+public class PointInCircle {
     public static void main(String[] args) {
         Scanner coordinate = new Scanner(System.in);
         System.out.println("Please, input coordinate X:");
