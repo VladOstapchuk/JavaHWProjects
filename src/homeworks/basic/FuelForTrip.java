@@ -1,4 +1,4 @@
-package homeworks;
+package homeworks.basic;
 
 public class FuelForTrip {
 

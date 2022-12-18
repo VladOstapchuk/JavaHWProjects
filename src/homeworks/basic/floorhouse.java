@@ -1,4 +1,4 @@
-package homeworks;
+package homeworks.basic;
 
 import java.util.Scanner;
 
@@ -9,8 +9,8 @@ public class floorhouse {
         System.out.println("Please, input appartment's number:");
         int appartments = house.nextInt();
 
-        int allflors = 9;
-        int entrance = 5;
+        //int allflors = 9;
+        //int entrance = 5;
         int appInEntrance = 36;
         int appOnTheFloor = 4;
 
