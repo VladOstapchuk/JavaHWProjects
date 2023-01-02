@@ -3,7 +3,7 @@ package homeworks.Arrays;
 public class numberOfOdds {
 
     //Написать программу для подсчета количества
-    //нечетных чисел в нем.
+    //нечетных чисел в массиве.
     public static void main(String[] args) {
         int[] array = new int[] {0,5,2,4,7,1,3,19};
         int number = 0;
