@@ -12,14 +12,15 @@ public class howmanysymbols {
         char whatFind = 'b';
         //String sample = "b";
         //char[] sampleChar = sample.toCharArray();
-        int resultNumber = 0;
+        //int resultNumber = 0;
         int resultNumber2 = 0;
 
-        for (int i = 0; i < fromString.length; i++) {
-            if (fromString[i] == whatFind) {
-                resultNumber++;
-            }
-        }
+   //     for (int i = 0; i < fromString.length; i++) {
+   //         if (fromString[i] == whatFind) {
+   //             resultNumber++;
+   //         }
+   //     }
+        //тоже самое с циклом типа for each
         for (char i: fromString) {
             if (i == whatFind) {
                 resultNumber2++;
@@ -28,7 +29,7 @@ public class howmanysymbols {
 
 
         System.out.println(Arrays.toString(fromString));
-        System.out.println(resultNumber);
+        //System.out.println(resultNumber);
         System.out.println(resultNumber2);
     }
 
