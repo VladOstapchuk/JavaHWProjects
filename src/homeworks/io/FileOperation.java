@@ -25,7 +25,7 @@ public class FileOperation {
     }
 
     public static long folderSize (File folder){
-        Long result = null;
+        long result = 0;
         if (folder.isFile()){
             return folder.length();
         } else {
