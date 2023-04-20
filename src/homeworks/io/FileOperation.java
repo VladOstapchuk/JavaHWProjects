@@ -24,5 +24,20 @@ public class FileOperation {
 
     }
 
+    public static long folderSize (File folder){
+        Long result = null;
+        if (folder.isFile()){
+            return folder.length();
+        } else {
+            File[] files = folder.listFiles();
+            for (File file: files
+                 ) { result += FileOperation.folderSize(file);
+            }
+
+        }
+
+        return result;
+    }
+
 
 }

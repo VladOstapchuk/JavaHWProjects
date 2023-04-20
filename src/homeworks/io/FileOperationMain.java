@@ -16,6 +16,10 @@ public class FileOperationMain {
             e.printStackTrace();
         }
 
+        File foldeOne = new File("C:\\Users\\ostapchukvo\\Desktop\\ALLEGRO");
+        System.out.println(FileOperation.folderSize(foldeOne));
+
+
 
     }
 }
